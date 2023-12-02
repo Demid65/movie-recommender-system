@@ -3,3 +3,4 @@ notebooks/ml-100k/
 notebooks/.ipynb_checkpoints/
 *.pickle
 *.csv
+*.pt
