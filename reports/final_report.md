@@ -8,6 +8,8 @@ The [MovieLens 100K dataset](https://grouplens.org/datasets/movielens/100k/) was
 # Model Implementation
 This project uses 4-layer Fully-connected model with ReLU activation. It has input dimension of 43, hidden dimensions of 64, 32, 16 and output dimension of 1 (predicted rating).
 
+I initially planned to try using GraphML model to improve the accuracy, but after the discussion with other students, I found out that it has poor performance, so I rejected this idea.
+
 # Model Advantages and Disadvantages
 Created model has not the best accuracy possible, since it has little input information, but its small size allows it to be run on large databases of films which makes it practical as a recommender system for large movie database, aiming to provide its services for large audience. Its small size also allows for very fast training, allowing for easy improvement of the model when more data is collected.
 
