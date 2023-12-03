@@ -3,6 +3,6 @@ notebooks/ml-100k/
 notebooks/.ipynb_checkpoints/
 *.pickle
 *.csv
-notebooks/*.pt
+*.pt
 data/
 benchmark/data/
